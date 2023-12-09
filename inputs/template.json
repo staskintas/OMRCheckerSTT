@@ -1,0 +1,82 @@
+{
+  "pageDimensions": [
+    1050,
+    1485
+  ],
+
+  "bubbleDimensions": [
+    22,
+    22
+  ],
+
+  "customLabels": {
+    "lectureGroup": ["g1"],
+    "lectureID": ["l1", "l2", "l3", "l4"],
+    "lectureDuration": ["d1"],
+    "studentCount": ["c1", "c2", "c3"]
+  },
+
+  "fieldBlocks": {
+    "lectureGroup": {
+      "fieldType": "QTYPE_INTH",
+      "origin": [412, 1342],
+      "fieldLabels": ["g1"],
+      "labelsGap": 24.7,
+      "bubblesGap": 22.2
+    },
+    "lectureID": {
+      "fieldType": "QTYPE_INTH",
+      "origin": [637, 118],
+      "fieldLabels": ["l1", "l2", "l3", "l4"],
+      "labelsGap": 24.7,
+      "bubblesGap": 31
+    },
+    "lectureDuration": {
+      "fieldType": "QTYPE_INTH",
+      "origin": [637, 217],
+      "fieldLabels": ["d1"],
+      "labelsGap": 24.7,
+      "bubblesGap": 31
+    },
+    "studentCount": {
+      "fieldType": "QTYPE_INTH",
+      "origin": [637, 242],
+      "fieldLabels": ["c1", "c2", "c3"],
+      "labelsGap": 24.7,
+      "bubblesGap": 31
+    },
+
+    "attendBlock1": {
+      "fieldType": "QTYPE_SCQ",
+      "origin": [198, 364],
+      "fieldLabels": ["q1...40"],
+      "labelsGap": 22.83,
+      "bubblesGap": 31,
+      "emptyValue": "0"
+    },
+    "attendBlock2": {
+      "fieldType": "QTYPE_SCQ",
+      "origin": [411, 364],
+      "fieldLabels": ["q41...80"],
+      "labelsGap": 22.83,
+      "bubblesGap": 31,
+      "emptyValue": "0"
+    },
+    "attendBlock3": {
+      "fieldType": "QTYPE_SCQ",
+      "origin": [624, 363],
+      "fieldLabels": ["q81...120"],
+      "labelsGap": 22.83,
+      "bubblesGap": 31,
+      "emptyValue": "0"
+    },
+    "attendBlock4": {
+      "fieldType": "QTYPE_SCQ",
+      "origin": [835, 361],
+      "fieldLabels": ["q121...160"],
+      "labelsGap": 22.83,
+      "bubblesGap": 31,
+      "emptyValue": "0"
+    }
+  }
+}

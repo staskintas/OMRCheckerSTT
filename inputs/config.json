@@ -1,0 +1,22 @@
+{
+    "dimensions": {
+        "display_height": 800,
+        "display_width": 800,
+        "processing_height": 800,
+        "processing_width": 566
+    },
+    "threshold_params": {
+      "MIN_JUMP": 30
+    },
+    "outputs": {
+      "filter_out_multimarked_files": false,
+      "show_image_level": 0
+    },
+    "alignment_params": {
+        "auto_align": true,
+        "match_col": 5,
+        "max_steps": 20,
+        "stride": 1,
+        "thickness": 3
+    }
+}

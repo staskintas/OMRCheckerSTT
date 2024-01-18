@@ -19,64 +19,64 @@
   "fieldBlocks": {
     "documentType": {
       "fieldType": "QTYPE_INTH",
-      "origin": [738, 44],
+      "origin": [748, 46],
       "fieldLabels": ["g1"],
-      "labelsGap": 24.7,
-      "bubblesGap": 22.5
+      "labelsGap": 24.5,
+      "bubblesGap": 23.35
     },
     "lectureID": {
       "fieldType": "QTYPE_INTH",
-      "origin": [738, 68],
+      "origin": [748, 72],
       "fieldLabels": ["l1", "l2", "l3"],
-      "labelsGap": 24.7,
-      "bubblesGap": 22.5
+      "labelsGap": 24.5,
+      "bubblesGap": 23.35
     },
     "lectureDuration": {
       "fieldType": "QTYPE_INTH",
-      "origin": [738, 144],
+      "origin": [748, 148],
       "fieldLabels": ["d1"],
-      "labelsGap": 24.7,
-      "bubblesGap": 22.5
+      "labelsGap": 24.5,
+      "bubblesGap": 23.35
     },
     "studentCount": {
       "fieldType": "QTYPE_INTH",
-      "origin": [738, 168],
+      "origin": [748, 178],
       "fieldLabels": ["c1", "c2", "c3"],
-      "labelsGap": 24.7,
-      "bubblesGap": 22.5
+      "labelsGap": 24.5,
+      "bubblesGap": 23.35
     },
 
 
     "attendBlock1": {
       "fieldType": "QTYPE_SCQ",
-      "origin": [110, 316],
+      "origin": [94, 330],
       "fieldLabels": ["q1...50"],
-      "labelsGap": 21.47,
-      "bubblesGap": 31,
+      "labelsGap": 22.35,
+      "bubblesGap": 23.35,
       "emptyValue": "0"
     },
     "attendBlock2": {
       "fieldType": "QTYPE_SCQ",
-      "origin": [336, 316],
+      "origin": [330, 330],
       "fieldLabels": ["q51...100"],
-      "labelsGap": 21.47,
-      "bubblesGap": 31,
+      "labelsGap": 22.35,
+      "bubblesGap": 23.35,
       "emptyValue": "0"
     },
     "attendBlock3": {
       "fieldType": "QTYPE_SCQ",
-      "origin": [562, 316],
+      "origin": [566, 330],
       "fieldLabels": ["q101...150"],
-      "labelsGap": 21.47,
-      "bubblesGap": 31,
+      "labelsGap": 22.35,
+      "bubblesGap": 23.35,
       "emptyValue": "0"
     },
     "attendBlock4": {
       "fieldType": "QTYPE_SCQ",
-      "origin": [788, 316],
+      "origin": [802, 330],
       "fieldLabels": ["q151...200"],
-      "labelsGap": 21.47,
-      "bubblesGap": 31,
+      "labelsGap": 22.35,
+      "bubblesGap": 23.35,
       "emptyValue": "0"
     }
   }

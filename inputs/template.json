@@ -5,76 +5,77 @@
   ],
 
   "bubbleDimensions": [
-    22,
-    22
+    20,
+    20
   ],
 
   "customLabels": {
-    "lectureGroup": ["g1"],
-    "lectureID": ["l1", "l2", "l3", "l4"],
+    "documentType": ["g1"],
+    "lectureID": ["l1", "l2", "l3"],
     "lectureDuration": ["d1"],
     "studentCount": ["c1", "c2", "c3"]
   },
 
   "fieldBlocks": {
-    "lectureGroup": {
+    "documentType": {
       "fieldType": "QTYPE_INTH",
-      "origin": [412, 1342],
+      "origin": [738, 44],
       "fieldLabels": ["g1"],
       "labelsGap": 24.7,
-      "bubblesGap": 22.2
+      "bubblesGap": 22.5
     },
     "lectureID": {
       "fieldType": "QTYPE_INTH",
-      "origin": [637, 118],
-      "fieldLabels": ["l1", "l2", "l3", "l4"],
+      "origin": [738, 68],
+      "fieldLabels": ["l1", "l2", "l3"],
       "labelsGap": 24.7,
-      "bubblesGap": 31
+      "bubblesGap": 22.5
     },
     "lectureDuration": {
       "fieldType": "QTYPE_INTH",
-      "origin": [637, 217],
+      "origin": [738, 144],
       "fieldLabels": ["d1"],
       "labelsGap": 24.7,
-      "bubblesGap": 31
+      "bubblesGap": 22.5
     },
     "studentCount": {
       "fieldType": "QTYPE_INTH",
-      "origin": [637, 242],
+      "origin": [738, 168],
       "fieldLabels": ["c1", "c2", "c3"],
       "labelsGap": 24.7,
-      "bubblesGap": 31
+      "bubblesGap": 22.5
     },
+
 
     "attendBlock1": {
       "fieldType": "QTYPE_SCQ",
-      "origin": [198, 364],
-      "fieldLabels": ["q1...40"],
-      "labelsGap": 22.83,
+      "origin": [110, 316],
+      "fieldLabels": ["q1...50"],
+      "labelsGap": 21.47,
       "bubblesGap": 31,
       "emptyValue": "0"
     },
     "attendBlock2": {
       "fieldType": "QTYPE_SCQ",
-      "origin": [411, 364],
-      "fieldLabels": ["q41...80"],
-      "labelsGap": 22.83,
+      "origin": [336, 316],
+      "fieldLabels": ["q51...100"],
+      "labelsGap": 21.47,
       "bubblesGap": 31,
       "emptyValue": "0"
     },
     "attendBlock3": {
       "fieldType": "QTYPE_SCQ",
-      "origin": [624, 363],
-      "fieldLabels": ["q81...120"],
-      "labelsGap": 22.83,
+      "origin": [562, 316],
+      "fieldLabels": ["q101...150"],
+      "labelsGap": 21.47,
       "bubblesGap": 31,
       "emptyValue": "0"
     },
     "attendBlock4": {
       "fieldType": "QTYPE_SCQ",
-      "origin": [835, 361],
-      "fieldLabels": ["q121...160"],
-      "labelsGap": 22.83,
+      "origin": [788, 316],
+      "fieldLabels": ["q151...200"],
+      "labelsGap": 21.47,
       "bubblesGap": 31,
       "emptyValue": "0"
     }

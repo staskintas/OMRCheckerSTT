@@ -22,7 +22,7 @@ def parse_args():
     argparser.add_argument(
         "-i",
         "--inputDir",
-        default=["inputs/images"],
+        default=["inputs"],
         # https://docs.python.org/3/library/argparse.html#nargs
         nargs="*",
         required=False,
